@@ -12,6 +12,14 @@ $ npm install react-use-password
 const { passwordValue, onPasswordChanged } = usePassword();
 ```
 
+You can destructuring `passwordValue` it has `password` and `passwordHidden`
+
+**password** = password that show `•` in input field
+
+**passwordHidden** = real password for use
+
+### Option
+
 you can add an option like this
 
 ```js
@@ -22,11 +30,11 @@ const { passwordValue, onPasswordChanged } = usePassword({
 });
 ```
 
-You can destructuring `passwordValue` it has `password` and `passwordHidden`
+**length** = length of password that show before change to password type
 
-**password** = password that show `•` in input field
+**mask** = symbol that will appear for hide password
 
-**passwordHidden** = real password for use
+**timeout** = timeout for hide password after typed
 
 ---
 
