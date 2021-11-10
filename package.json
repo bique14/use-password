@@ -1,19 +1,22 @@
 {
   "name": "react-use-password",
   "author": "katy",
-  "desciption": "React hooks for input password field",
+  "description": "React hooks for input password field",
   "version": "1.0.0",
-  "description": "",
+  "keywords": [
+    "react",
+    "hooks"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && NODE_ENV=production babel src --out-dir dist --copy-files"
   },
-  "keywords": [
-    "react",
-    "hooks"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bique14/use-password.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.16.0",
