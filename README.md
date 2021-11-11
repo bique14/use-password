@@ -1,5 +1,7 @@
 # usePassword
 
+![Example](./example.gif)
+
 ## Installation
 
 ```bash
